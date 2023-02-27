@@ -8,14 +8,11 @@
  * Return: always 0
  */
 
-void _puts(char *str);
+void _puts(char *str)
 {
-	char str = '0';
-
 	while (*str != '\0')
 	{
-		str++;
+		_putchar(*str++);
 	}
-	return (str);
 	_putchar('\n');
 }
