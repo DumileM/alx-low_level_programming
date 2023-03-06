@@ -4,7 +4,7 @@
  * _memset - function that fills memory with a constant byte.
  *
  * @s: memory area.
- * 
+ *
  * @b: constant byte.
  *
  * @n: first n bytes.
